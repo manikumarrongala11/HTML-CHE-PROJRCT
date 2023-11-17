@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #9ebe37; /* Background color for the body */
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #efebeb; /* Background color for the content container */
+    box-shadow: 0 0 10px rgba(209, 82, 82, 0.1); /* Adding a subtle shadow to the container */
+  }
+  
+  h1 {
+    text-align: left;
+    margin-bottom: 20px;
+    color: #333; /* Color for the main title */
+  }
+  
+  p {
+    text-align: justify;
+    margin-bottom: 20px;
+    color: #666; /* Color for paragraphs */
+  }
+
+  footer {
+    text-align: center;
+  }
+  
+  

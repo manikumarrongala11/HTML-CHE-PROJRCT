@@ -1,0 +1,74 @@
+/* Resetting default margin and padding for better consistency */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styling for header */
+header {
+  text-align: center;
+  background-color: #660909;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 50px;
+  color: #ec9b9b;
+  margin-bottom: 5px;
+}
+
+header h2 {
+  font-size: 30px;
+  color: #877a7a;
+}
+
+/* Styling for main sections */
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+section h2 {
+  font-size: 30px;
+  color: #6f1313;
+  margin-bottom: 10px;
+}
+
+section h3 {
+  font-size: 18px;
+  color: grey;
+  margin-bottom: 5px;
+}
+
+section p,
+section li {
+  font-size: 16px;
+  color: green;
+  line-height: 1.6;
+}
+
+/* Styling for footer */
+footer {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Styling for ordered and unordered lists */
+ol,
+ul {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+ol li,
+ul li {
+  margin-bottom: 5px;
+}
